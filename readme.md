@@ -29,4 +29,6 @@ Cette application comporte:
 
 Cette application n'a pas fait l'objet de test poussé et ne peut pas garantir une fiabilité optimal.
 Par conséquent je ne vous conseil pas de l'utilisé dans l'immédiat pour un commerce en ligne ou autre.
-Cependant je vous invite à me contacter au brunetdev@gmail.com si vous souhaitez plus d'information.  
+Cependant je vous invite à me contacter au brunet.dev@gmail.com si vous souhaitez plus d'information.  
+
+Vous pouvez en savoir plus en cliquant sur mon nom [Jonathan Brunet](http://www.brunetdeveloppeur.com) :)
