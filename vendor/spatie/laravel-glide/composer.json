@@ -1,0 +1,27 @@
+{
+    "name": "spatie/laravel-glide",
+    "description": "A Glide Service Provider for Laravel",
+    "homepage": "https://github.com/spatie/laravel-glide",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "league/glide": "0.3.*"
+    },
+    "require-dev": {
+        "codeception/codeception": "2.*",
+        "mockery/mockery": "~0.9.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spatie\\Glide": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
