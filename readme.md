@@ -1,33 +1,32 @@
-## Laravel Learning Management System
+## Plateforme de e-learning avec Laravel
 
-Simple mini-project created during live-coding sessions in 15 lessons. 
-[Watch them on YouTube](https://www.youtube.com/watch?v=8c107aufU9s&list=PLdXLsjL7A9k0NlUGL9M7ah9Fnvo3HybRl)
+Simple plateforme de e-learning réalisé à l'aide de plusieurs tutoriels.
 
-### Front-end view 
+### installation
 
-![Front-end view](http://laraveldaily.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-23-at-1.34.22-PM.png)
+1. cloner le projet
+2. composer install
+3. modifier vos variables d'environnement de le fichier .env à la racine du projet
+4. Créer votre base de donnée
+5. php artisan migrate
+6. php artisan db:seed
+7. php artisan key:generate
+8. php artisan serve
+9. prendre du plaisir :)
 
-### Back-end view 
-Generated with [QuickAdminPanel](https://quickadminpanel.com)
+vous pouvez vous connecter à l'admin avec admin@admin.com et le mot de passse est password.
 
-Credentials to log in:
+### description
 
-Email: admin@admin.com
+Cette application comporte:
 
-Password: password
-
-![Back-end view](http://laraveldaily.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-23-at-1.34.35-PM.png)
+- gestions des utilisateurs:
+  - l'étudiants: peut consulter les cours et pour y accédé doit passer par un système de paiement en ligne.
+                Il peut également bien entendu poser des questions au prof.
+  - l'administrateurs: peut créer des cours en y intégrant des supports PDF, CSV et autre.
 
 ### License
 
-Please use and re-use however you want.
-
----
-
-## More from our LaravelDaily Team
-
-- Check out our adminpanel generator QuickAdminPanel: [Laravel version](https://quickadminpanel.com) and [Vue.js version](https://vue.quickadminpanel.com)
-- Follow our [Twitter](https://twitter.com/dailylaravel) and [Blog](http://laraveldaily.com/blog)
-- Subscribe to our [newsletter with 20+ Laravel links every Thursday](http://laraveldaily.com/weekly-laravel-newsletter/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-
+Cette application n'a pas fait l'objet de test poussé et ne peut pas garantir une fiabilité optimal.
+Par conséquent je ne vous conseil pas de l'utilisé dans l'immédiat pour un commerce en ligne ou autre.
+Cependant je vous invite à me contacter au brunetdev@gmail.com si vous souhaitez plus d'information.  
